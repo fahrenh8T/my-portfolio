@@ -1,3 +1,7 @@
+import image1 from './assets/projects/image 1.jpeg';
+import image2 from './assets/projects/image 2.jpeg';
+import image3 from './assets/projects/image 3.jpeg';
+
 const logotext = "RAYMOND WAIREGI";
 const meta = {
     title: "Raymond Wairegi",
@@ -84,27 +88,38 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/800/?grayscale",
+const dataportfolio = [
+    {
+        img: image1,
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: image2,
         description: "precieux Branding",
         link: "https://www.behance.net/gallery/220024059/Prcieux-Logo",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: image3,
         description: "LaunchPro Branding",
         link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: image3,
+        description: "LaunchPro Branding",
+        link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: image3,
+        description: "LaunchPro Branding",
+        link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
     },
-    
+    {
+        img: image3,
+        description: "LaunchPro Branding",
+        link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
+    },
+
 ];
 
 const contactConfig = {

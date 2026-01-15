@@ -1,7 +1,7 @@
 .po_items_ho {
-    column-width: 15em;
-    -moz-column-width: 15em;
-    -webkit-column-width: 15em;
+    column-width: 15rem;
+    -moz-column-width: 15rem;
+    -webkit-column-width: 15rem;
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
@@ -18,11 +18,17 @@
     border: 1px solid var(--secondary-color);
     transition: 0.3s ease;
     font-size: 0;
-    min-height: 300px;
+    /*min-height: 300px;*/
 }
 
+/*.po_item img {*/
+/*    max-width: 100%;*/
+/*}*/
+
 .po_item img {
-    max-width: 100%;
+    width: 100%;
+    aspect-ratio: 4 / 3;   /* or 1 / 1 for square */
+    object-fit: cover;
 }
 
 .po_item .content {
