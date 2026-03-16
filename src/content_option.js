@@ -1,6 +1,6 @@
-import image1 from './assets/projects/image 1.jpeg';
-import image2 from './assets/projects/image 2.jpeg';
-import image3 from './assets/projects/image 3.jpeg';
+import precieux from './assets/projects/image 1.jpeg';
+import launchpro from './assets/projects/image 3.jpeg';
+import bidbox from './assets/projects/image 2.jpg';
 
 const logotext = "RAYMOND WAIREGI";
 const meta = {
@@ -90,32 +90,32 @@ const services = [{
 
 const dataportfolio = [
     {
-        img: image1,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: image2,
-        description: "precieux Branding",
+        img: precieux,
+        description: "Précieux",
         link: "https://www.behance.net/gallery/220024059/Prcieux-Logo",
     },
     {
-        img: image3,
+        img: launchpro,
+        description: "LaunchPro",
+        link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
+    },
+    {
+        img: bidbox,
+        description: "BidBox",
+        link: "https://www.behance.net/gallery/244699251/Bidbox",
+    },
+    {
+        img: launchpro,
         description: "LaunchPro Branding",
         link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
     },
     {
-        img: image3,
+        img: launchpro,
         description: "LaunchPro Branding",
         link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
     },
     {
-        img: image3,
-        description: "LaunchPro Branding",
-        link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
-    },
-    {
-        img: image3,
+        img: launchpro,
         description: "LaunchPro Branding",
         link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
     },
