@@ -22,13 +22,13 @@ export const Portfolio = () => {
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
-              <div key={i} className="po_item">
+              <a href={data.link} key={i} className="po_item" target="_blank" rel="noopener noreferrer">
                 <img src={data.img} alt="" />
                 <div className="content">
-                  <p>{data.description}</p>
-                  <a href={data.link} target="_blank" rel="noopener noreferrer">Explore</a>
+                  <p className="portfolio-desc">{data.description}</p>
+                  <p>{data.year}</p>
                 </div>
-              </div>
+              </a>
             );
           })}
         </div>

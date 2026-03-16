@@ -93,31 +93,37 @@ const dataportfolio = [
         img: precieux,
         description: "Précieux",
         link: "https://www.behance.net/gallery/220024059/Prcieux-Logo",
+        year: "2025"
     },
     {
         img: launchpro,
         description: "LaunchPro",
         link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
+        year: "2025"
     },
     {
         img: bidbox,
         description: "BidBox",
         link: "https://www.behance.net/gallery/244699251/Bidbox",
+        year: "2025"
     },
     {
         img: launchpro,
         description: "LaunchPro Branding",
         link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
+        year: "2025"
     },
     {
         img: launchpro,
         description: "LaunchPro Branding",
         link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
+        year: "2025"
     },
     {
         img: launchpro,
         description: "LaunchPro Branding",
         link: "https://www.behance.net/gallery/204843451/LaunchPro-Logo",
+        year: "2025"
     },
 
 ];
